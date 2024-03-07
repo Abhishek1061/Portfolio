@@ -1,0 +1,403 @@
+@media(min-width:1024px) and (max-width:1368px) {
+    section {
+        min-height: 70vh;
+    }
+
+    .header {
+        padding: 3rem 9%;
+    }
+
+    .nav-bar a {
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+    .home .home-img img {
+        height: 270px;
+        width: 270px;
+        top: 130px;
+        right: 40px;
+    }
+
+    .home-content h3 {
+        font-size: 3.6rem;
+    }
+
+    .home-content p {
+        font-size: 2.6rem;
+    }
+
+    .social-media a {
+        width: 4.6rem;
+        height: 4.6rem;
+    }
+
+    .btn {
+        padding: 1.4rem 2.9rem;
+        font-size: 1.9rem;
+    }
+
+    .about {
+        gap: 3rem;
+    }
+
+    .about-img img {
+        height: 600px;
+        width: 450px;
+        border-radius: 10px;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 4.9rem;
+    }
+
+    .about-content h2 {
+        line-height: 1.2;
+    }
+
+    .about-content h3 {
+        font-size: 3rem;
+    }
+
+    .about-content p{
+        font-size: 2.3rem;
+    }
+
+    .services-container{ 
+        flex-direction: column;
+        padding: 0 1px;
+    }
+
+    .protfolio h2 {
+        padding: 30px 0 0;
+    }
+
+    .protfolio-container{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .protfolio{
+        padding: 0 30px;
+    }
+
+    .contact form{
+        max-width: 110rem;
+    }
+
+    .contact form .input-box input,
+    .contact form textarea{
+        padding: 4rem;
+        font-size: 2.5rem;
+    }
+
+    .contact form .btn {
+        padding: 15px 35px;
+        font-size: 2.5rem;
+    }
+
+    .footer{
+        align-items: center;
+        padding: 3rem 9%;
+    }
+
+    .footer-text {
+        font-size: 2.5rem;
+    }
+
+    .footer-icontop{
+        padding: 1.3rem 2rem;
+    }
+
+    .footer-icontop a i{
+        font-size: 3.5rem;
+    }
+}
+
+@media(min-width: 991px) and (max-width:1023px) {
+    .header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3%;
+    }
+
+    .services {
+        padding: 7rem;
+    }
+
+    .protfolio {
+        padding-bottom: 7rem;
+    }
+
+    .contact {
+        min-height: auto;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+
+@media(min-width:820px) and (max-width:990px) {
+    section {
+        min-height: 50vh;
+    }
+
+    .header {
+        padding: 4rem 9%;
+    }
+
+    section.home .home-img img {
+        position: absolute;
+        top: 120px;
+
+        right: 20px;
+        height: 220px;
+        width: 220px;
+    }
+
+    .services {
+        padding: 0 20px;
+    }
+
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    section .protfolio-container {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 2.3rem;
+        width: 100%;
+
+    }
+
+    .protfolio {
+        padding: 0 15px;
+    }
+}
+
+@media(min-width:768px) and (max-width:819px) {
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 4rem 9%;
+    }
+
+    .logo {
+        font-size: 3rem;
+        font-weight: 900;
+
+    }
+
+    .nav-bar a {
+        font-size: 2rem;
+        margin-left: 3rem;
+    }
+
+    section {
+        height: 20%;
+    }
+
+    .about-content p {
+        font-size: 3rem;
+        line-height: 2;
+    }
+
+    .social-media a {
+        margin-top: 11px;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .btn {
+        padding: 1.3rem 5rem;
+        font-size: 2rem;
+        transition: .5s ease;
+    }
+
+    .btn:hover {
+        box-shadow: none;
+    }
+
+    .about .about-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .about-content p {
+        font-size: 2rem;
+        margin: 2rem 0 3rem;
+    }
+
+    .about-content span {
+        display: inline-block;
+        color: white;
+    }
+
+    .home-img img {
+        position: absolute;
+        top: 120px;
+        right: 20px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .services {
+        padding: 0 20px;
+    }
+
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    section .protfolio-container {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 2.3rem;
+    }
+}
+
+@media(max-width: 767px) {
+    #manu-icon {
+        display: block;
+    }
+
+    .nav-bar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: #191f36;
+        border-top: 1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+
+    .header .nav-bar.is-active {
+        display: block;
+    }
+
+    /* .nav-bar.active{
+        display: block;
+    } */
+
+    .nav-bar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .home {
+        flex-direction: column;
+        padding-top: 450px;
+        padding-bottom: 500px;
+        margin-right: -80px;
+        
+    }
+
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-content {
+        order: 2;
+    }
+
+    .home-img img {
+        position: absolute;
+        height: 200px !important;
+        width: 200px !important;
+        top: 130px;
+        margin-left: 150px;
+
+    
+    }
+
+    section.home {
+        margin-bottom: -130px;
+        height: 100vh;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-img img {
+        width: 90vw;
+        padding: 8px;
+        margin-top: 4rem;
+        /* margin-top: -300px; */
+    }
+
+    .services h2 {
+        margin-bottom: 3rem;
+    }
+
+    .protfolio h2 {
+        margin-bottom: 3rem;
+    }
+
+    .protfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer .footer-icontop {
+        align-self: flex-start;
+    }
+}
+
+@media(max-width: 617px) {
+    .protfolio-container {
+        grid-template-columns: 1fr;
+    }
+
+    .home-img img {
+        position: absolute;
+        left: 180px;
+        width: 150px;
+        height: 150px;
+        margin-top: 8rem;
+    }
+
+    .about-img img {
+        width: 300px;
+        height: 300px;
+        margin-top: -25px;
+        border-radius: 50px;
+        box-shadow: 0 0 0.5rem black;
+
+    }
+
+    section .home {
+        min-height: 50vh;
+    }
+}
+
+@media(max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .contact form .input-box input {
+        width: 100%;
+    }
+}
